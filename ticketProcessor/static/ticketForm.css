@@ -1,0 +1,18 @@
+@import "cssBasics/button.css";
+@import "cssBasics/textInput.css";
+
+
+.textbox{
+    padding: 1%;
+    align-items: center;
+}
+
+
+ol{
+    width: 95%;
+    height: fit-content;
+    align-items: center;
+    display:grid;
+    grid-auto-flow: row;
+    background-color: aliceblue;  
+}

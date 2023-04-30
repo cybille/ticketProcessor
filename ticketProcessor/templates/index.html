@@ -1,0 +1,36 @@
+<!DOCTYPE  html>
+<html lan="en" dir="ltr">
+
+<head>
+    <meta charset="utf-8">
+    <title>Home</title>
+    <link rel="stylesheet" href="/static/homepage.css"> 
+</head>
+
+<body>
+    
+  
+    <div class= "title">
+        <h1> Help Desk </h1>
+    </div>
+    <ol>
+    <div class="images">
+        <img src ="/static/media/home.jpg"></img>
+    </div>
+
+    <div class="navright">
+        <ul>
+      {% for item in nav.top%}
+        <li>
+            <a href="{{item.url}}">{{item.label}}</a>
+        </li>
+      {% endfor %}
+
+    </ul>
+    </div>
+</ol>
+
+</body>
+
+
+</html>

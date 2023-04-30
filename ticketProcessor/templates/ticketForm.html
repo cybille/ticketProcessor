@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+
+<html lan="eng" dir"ltr">
+    <head>
+        <meta charset="utf-8">
+        <title>Ticket form</title>
+        <link rel="stylesheet" href="/static/ticketform.css">
+    </head>
+
+    <body>
+        <div>
+            <form action="/ticketform" method= "POST">
+                <ol>
+                    <div class="textbox"> 
+            <input type="email" value="" id="email" name="email" placeholder="Email">
+                    </div>
+                    <div class="textbox">
+            <input class="largeTextBox" value="" id="userIssue" name="userIssue" placeholder="Enter Issue max 50 words">  
+                    </div>
+                    <div>
+            <button id="submit" type="submit">Submit</button>
+                    </div>
+        </ol>
+        </form>
+        </div>
+
+    </body>
+
+</html>

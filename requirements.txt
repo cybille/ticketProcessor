@@ -3,3 +3,4 @@ flask-login
 flask-sqlalchemy 
 flask-wtf
 python-dotenv
+flask_navigation
